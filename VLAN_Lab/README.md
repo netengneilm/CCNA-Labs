@@ -4,12 +4,14 @@
 Configure VLANs and trunking between switches and verify inter-VLAN communication.
 
 ## Topology
-- 2 Switches
-- 1 Router (Router-on-a-stick)
-
+- 3 Switches
+- 1 Router
+- 
 ## Configuration Summary
-- VLAN 10: Sales
-- VLAN 20: HR
+- VLAN 10: IT
+- VLAN 20: Sales
+- VLAN 30: Admin
+- VLAN 40: Marketing
 - Trunk configured on switch ports
 - Subinterfaces configured on router
 
