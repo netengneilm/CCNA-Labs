@@ -1,0 +1,12 @@
+SW1(config)#int g0/0
+SW1(config-if)#sw mo acc
+SW1(config-if)#sw acc vlan 10
+SW1(config-if)#int g1/0
+SW1(config-if)#sw mo acc
+SW1(config-if)#sw acc vlan 20
+SW1(config-if)#int g1/1
+SW1(config-if)#sw mo acc
+SW1(config-if)#sw acc vlan 30
+SW1(config-if)#int g1/2
+SW1(config-if)#sw mo acc
+SW1(config-if)#sw acc vlan 40
